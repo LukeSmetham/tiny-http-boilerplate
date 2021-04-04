@@ -1,0 +1,19 @@
+{
+  "name": "tiny-http-boilerplate",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "main.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon -x 'node --es-module-specifier-resolution=node main.js'",
+    "start": "node --es-module-specifier-resolution=node main.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "@tinyhttp/app": "^1.2.21",
+    "@tinyhttp/logger": "^1.2.3",
+    "serve-static": "^1.14.1"
+  }
+}
